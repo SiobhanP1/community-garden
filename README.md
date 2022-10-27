@@ -28,10 +28,17 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 * A 'What we do' section on the home page sharing the main activities.
 * A 'Who we are' section on the home page allowing users to 'meet' the people running the community garden.  
 
-
-
 ## Future Features
-## Typography and Color Schemes
+
+* An events section or page sharing event details, times, days, how to participate, etc.
+* A gallery page sharing photos from recent events.
+
+## Typography and Color Schemes *Add more info about fonts, colors. Change color names to hex symbols.*
+
+* Montserrat is used for headings and Merriweather for body text. 
+* Green is the base color and used for both headings (on white background) and as the background color in the navigation and footer sections. 
+* Blue is also used in places, and light orange is the accent color used for call-to-action buttons. 
+
 ## Wireframes
 ## Technology
 ## Testing
