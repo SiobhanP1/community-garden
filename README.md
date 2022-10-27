@@ -40,6 +40,12 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 * Blue is also used in places, and light orange is the accent color used for call-to-action buttons. 
 
 ## Wireframes
+
+### Page 1 of 3: The Home Page *Redo screenshot so can include entire page in one image?*
+![The upper half of the home page.](assets/images/homepage_wireframe%201%20screenshot.png) ![The lower half of the home page.](assets/images/homepage_wireframe%202%20screenshot.png)
+### Page 2 of 3: Our Story
+### Page 3 of 3: Contact Us
+
 ## Technology
 ## Testing
 1. Code Validation
