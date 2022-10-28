@@ -14,3 +14,33 @@ h1, h2 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+/* nav bar at top of page */
+
+.main-nav-link {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+#home-icon {
+    display: inline-block;
+    float: left;
+    line-height: 40px; 
+    margin: 0;   
+    font-size: 1.3rem;
+}
+
+#nav-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* hero image and main title */
+
+#hero-image-container {
+    clear: both;
+}
