@@ -8,9 +8,7 @@ The purpose of the Community Garden website is to:
 
 The website is targeted at people who want to learn how to grow fruit and vegetables, people who want to grow vegetables but do not have a garden of their own, people who want access to fresh organic fruit and vegetables, and people interested in activities through which they can get to know other people in the same community. 
 
-*Add screenshots of site on different devices/different screen sizes here*
-
-## User Stories *Add business and user goals?*
+## User Stories 
 
 * As a visitor to this site, I want to know what makes this community garden special so I can decide if it is worth visiting. 
 * As a visitor to this site, I need to know the location so that I can go there.
@@ -33,7 +31,7 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 * An events section or page sharing event details, times, days, how to participate, etc.
 * A gallery page sharing photos from recent events.
 
-## Typography and Color Schemes *Add more info about fonts, colors. Change color names to hex symbols.*
+## Typography and Color Schemes 
 
 * Montserrat is used for headings and Merriweather for body text. 
 * Green is the base color and used for both headings (on white background) and as the background color in the navigation and footer sections. 
@@ -41,10 +39,15 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 
 ## Wireframes
 
-### Page 1 of 3: The Home Page *Redo screenshot so can include entire page in one image?*
+### Page 1 of 3: The Home Page 
 ![The upper half of the home page.](assets/images/homepage_wireframe%201%20screenshot.png) ![The lower half of the home page.](assets/images/homepage_wireframe%202%20screenshot.png)
 ### Page 2 of 3: Our Story
+![Our Story on page 2.](assets/images/page2_wireframe%20screenshot.png) 
 ### Page 3 of 3: Contact Us
+![Contact Us on page 3.](assets/images/page3_wireframe%20screenshot.png)
+### Confirmation page after user hits 'Subscribe'
+### Page 1 and 3 on a smaller mobile phone screen 
+![The home page and contact us page on a small phone screen.](assets/images/mobile%20screen_wireframe%20screenshot.png)
 
 ## Technology
 ## Testing
