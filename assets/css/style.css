@@ -26,12 +26,28 @@ h1, h2 {
     font-size: 1.3rem;
 }
 
+.contact-us {
+    background-color: #ff9933;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.white-text {
+    color: white;
+}
+
 #home-icon {
     display: inline-block;
     float: left;
     line-height: 40px; 
     margin: 0;   
     font-size: 1.3rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #616161;
 }
 
 #nav-bar {
