@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
     font-family: Merriweather, sans-serif;
     font-weight: 400;
     color: #616161;
+    font-size: 1rem;
 }
 
 h1,
@@ -68,6 +72,10 @@ nav ul a {
 
 #hero-image-container {
     clear: both;
-    background-color: #5cd65c;
     height: 500px;
+    background-image: url("/assets/images/tomatoes.jpg");
+    background-color: #5cd65c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
