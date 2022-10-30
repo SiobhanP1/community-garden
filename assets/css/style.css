@@ -31,7 +31,7 @@ h2 {
     float: right;
     line-height: 50px;
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .contact-us {
@@ -98,16 +98,10 @@ nav ul a {
     height: 300px;
 }
 
-
-    /* height: auto;
-    width: 60%; */
-
-    /*img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-    }*/
+.image-container {
+    width: 60%;
+    margin: 0 auto;
+}
 
     /* Footer */
 
@@ -125,7 +119,7 @@ footer {
 .social-media-link {
     display: inline;
     line-height: 50px;
-    margin-right: 50px;
+    margin-right: 55px;
     margin-left: 55px;
 }
 
