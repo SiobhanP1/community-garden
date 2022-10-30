@@ -21,6 +21,7 @@ h2 {
     text-transform: uppercase;
     line-height: 1.5;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* nav bar at top of page */
@@ -103,14 +104,14 @@ nav ul a {
     margin: 0 auto;
 }
 
-    /* Footer */
+/* Footer */
 
 footer {
-    height: 50px; 
+    height: 50px;
     background-color: #5cd65c;
     bottom: 0;
     right: 0;
-}    
+}
 
 .footer-links {
     text-align: center;
@@ -128,4 +129,19 @@ footer i {
     color: #333333;
 }
 
+/* our story article */
 
+.article-image-container {
+    width: 60%;
+    margin: 15px auto;
+}
+
+.article-text-container {
+    width: 60%;
+    margin: 30px auto 30px;
+    background-color: #ff9933;
+}
+
+#article-image-two {
+    margin-bottom: 30px;
+}
