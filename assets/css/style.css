@@ -26,7 +26,7 @@ h2 {
 /* nav bar at top of page */
 
 .main-nav-link {
-    display: inline-block;
+    display: inline;
     list-style-type: none;
     float: right;
     line-height: 50px;
@@ -47,9 +47,6 @@ h2 {
 #home-icon {
     display: inline-block;
     float: left;
-    line-height: 50px;
-    margin: 0;
-    font-size: 1rem;
 }
 
 nav ul a {
@@ -98,4 +95,43 @@ nav ul a {
     background-color: #ff9933;
     text-align: center;
     padding: 20px;
+    height: 300px;
 }
+
+
+    /* height: auto;
+    width: 60%; */
+
+    /*img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }*/
+
+    /* Footer */
+
+footer {
+    height: 50px; 
+    background-color: #5cd65c;
+    bottom: 0;
+    right: 0;
+}    
+
+.footer-links {
+    text-align: center;
+}
+
+.social-media-link {
+    display: inline;
+    line-height: 50px;
+    margin-right: 50px;
+    margin-left: 55px;
+}
+
+footer i {
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+
