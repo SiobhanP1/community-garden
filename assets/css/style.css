@@ -154,6 +154,38 @@ footer i {
 
 .form-input-field {
     border: 1px solid #333333;
-    width: 200px;
-    max-width: 70%;
+    width: 100%;
+    max-width: 300px;
+}
+
+#contact-main-heading {
+    margin-top: 20px;
+}
+
+#subscribe-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#subscribe-text {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#map-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#visit-us-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#visit-us-text p {
+    text-align: center;
+}
+
+#visit-section {
+    margin-bottom: 20px;
 }
