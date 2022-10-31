@@ -31,13 +31,12 @@ h2 {
     list-style-type: none;
     float: right;
     line-height: 50px;
-    margin-left: 20px;
-    font-size: 1.2rem;
+    margin-left: 12px;
 }
 
 .contact-us {
     background-color: #ff9933;
-    padding: 0 10px;
+    padding: 0 7px;
     border-radius: 5px;
 }
 
@@ -53,11 +52,12 @@ h2 {
 nav ul a {
     text-decoration: none;
     color: #616161;
+    font-size: 1.1rem;
 }
 
 #nav-bar {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 50px;
     background-color: yellow;
     display: block;
@@ -92,7 +92,8 @@ nav ul a {
 /* home page about sections */
 
 .text-container {
-    margin: 30px;
+    width: 75%;
+    margin: 0 auto;
     background-color: #ff9933;
     text-align: center;
     padding: 20px;
@@ -120,8 +121,8 @@ footer {
 .social-media-link {
     display: inline;
     line-height: 50px;
-    margin-right: 55px;
-    margin-left: 55px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 footer i {
@@ -137,7 +138,7 @@ footer i {
 }
 
 .article-text-container {
-    width: 60%;
+    width: 75%;
     margin: 30px auto 30px;
     background-color: #ff9933;
 }
@@ -170,6 +171,7 @@ footer i {
 #subscribe-text {
     margin-bottom: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
 #map-container {
@@ -188,4 +190,55 @@ footer i {
 
 #visit-section {
     margin-bottom: 20px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 481px) {
+
+    .social-media-link {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .main-nav-link {
+        margin-left: 15px;
+    }
+
+    nav ul a {
+        font-size: 1.2rem;
+    }
+
+    .contact-us {
+        padding: 0 10px;
+    }
+
+    #nav-bar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text-container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:769px) {
+
+    .social-media-link {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .text-container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .social-media-link {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
