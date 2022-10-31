@@ -145,3 +145,15 @@ footer i {
 #article-image-two {
     margin-bottom: 30px;
 }
+
+/* subscribe form */
+
+.form-label {
+    display: block;
+}
+
+.form-input-field {
+    border: 1px solid #333333;
+    width: 200px;
+    max-width: 70%;
+}
