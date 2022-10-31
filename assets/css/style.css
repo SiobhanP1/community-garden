@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -61,7 +62,13 @@ nav ul a {
     padding-right: 15px;
     height: 50px;
     background-color: yellow;
-    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-space-margin {
+    margin-top: 50px;
 }
 
 nav i {
