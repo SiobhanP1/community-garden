@@ -221,6 +221,9 @@ footer i {
     .text-container {
         width: 70%;
     }
+
+    .article-text-container {
+        width: 70%;}
 }
 
 @media screen and (min-width:769px) {
@@ -233,6 +236,9 @@ footer i {
     .text-container {
         width: 60%;
     }
+
+    .article-text-container {
+        width: 60%;}
 }
 
 @media screen and (min-width: 1025px) {
