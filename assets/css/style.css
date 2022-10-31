@@ -45,8 +45,9 @@ h2 {
 }
 
 #home-icon {
-    display: inline-block;
+    display: inline;
     float: left;
+    margin-top: 10px;
 }
 
 nav ul a {
@@ -61,6 +62,12 @@ nav ul a {
     height: 50px;
     background-color: yellow;
     display: block;
+}
+
+nav i {
+    font-size: 1.6rem;
+    line-height: 50px;
+    color:#616161;
 }
 
 .main-nav-link a:hover {
@@ -91,16 +98,16 @@ nav ul a {
 
 /* home page about sections */
 
-.text-container {
+.about-text-container {
     width: 75%;
-    margin: 0 auto;
+    margin: 30px auto 20px;
     background-color: #ff9933;
     text-align: center;
     padding: 20px;
     height: 300px;
 }
 
-.image-container {
+.about-image-container {
     width: 60%;
     margin: 0 auto;
 }
