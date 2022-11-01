@@ -35,7 +35,7 @@ h2 {
     margin-left: 12px;
 }
 
-.contact-us {
+.contact-us-button {
     background-color: #ff9933;
     padding: 0 .5rem;
     border-radius: 5px;
@@ -43,6 +43,16 @@ h2 {
 
 .white-text {
     color: white;
+}
+
+#nav-bar {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    background-color: #7EE244;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #home-icon {
@@ -57,24 +67,10 @@ nav ul a {
     font-size: 1.1rem;
 }
 
-#nav-bar {
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 50px;
-    background-color: #7EE244;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.nav-space-margin {
-    margin-top: 50px;
-}
-
 nav i {
     font-size: 1.6rem;
     line-height: 50px;
-    color:#616161;
+    color:#555555;
 }
 
 .main-nav-link a:hover {
@@ -82,6 +78,10 @@ nav i {
 }
 
 /* hero image and main title */
+
+.nav-bar-margin {
+    margin-top: 50px;
+}
 
 #hero-image-container {
     clear: both;
@@ -149,26 +149,26 @@ footer i {
 
 /* our story article */
 
-.article-image-container {
+.story-image-container {
     width: 60%;
     margin: 15px auto;
 }
 
-.article-text-container {
+.story-text-container {
     width: 75%;
     margin: 30px auto 20px;
 }
 
-#article-image-two {
+.padding-top {
+    padding-top: 30px;
+}
+
+#story-image-two {
     margin-bottom: 50px;
 }
 
 #story-main-heading {
     font-size: 2rem;
-}
-
-.padding-top {
-    padding-top: 30px;
 }
 
 /* subscribe form */
@@ -183,13 +183,13 @@ footer i {
     max-width: 250px;
 }
 
+#contact-main-heading {
+    margin-top: 20px;
+}
+
 #form-container {
     width: 90%;
     margin: 0 auto; 
-}
-
-#contact-main-heading {
-    margin-top: 20px;
 }
 
 #subscribe-container {
@@ -210,6 +210,8 @@ footer i {
     padding: .5rem;
 }
 
+/* Visit us section on Contact page */
+
 #map-container {
     margin: 0 auto;
     width: 80%;
@@ -220,12 +222,12 @@ footer i {
     margin-bottom: 20px;
 }
 
-#visit-us-text p {
-    text-align: center;
-}
-
 #visit-section {
     margin-bottom: 20px;
+}
+
+#visit-us-text p {
+    text-align: center;
 }
 
 /* media queries */
@@ -245,7 +247,7 @@ footer i {
         font-size: 1.2rem;
     }
 
-    .contact-us {
+    .contact-us-button {
         padding: 0 10px;
     }
 
@@ -258,11 +260,11 @@ footer i {
         font-size: 2.5rem;
     }
 
-    .text-container {
+    .about-text-container {
         width: 70%;
     }
 
-    .article-text-container {
+    .story-text-container {
         width: 70%;
     }
 
@@ -286,11 +288,11 @@ footer i {
         margin-right: 100px;
     }
 
-    .text-container {
+    .about-text-container {
         width: 60%;
     }
 
-    .article-text-container {
+    .story-text-container {
         width: 60%;
     }
 
