@@ -52,6 +52,15 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 ## Technology
 ## Testing
 1. Code Validation
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
 2. Test Cases (user story with screenshots)
 3. Fixed Bugs
 4. Supported Screens and Browsers
