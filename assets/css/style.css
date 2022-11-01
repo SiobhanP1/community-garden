@@ -11,7 +11,7 @@ body {
     font-family: Merriweather, sans-serif;
     font-weight: 400;
     color: #616161;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
@@ -175,6 +175,7 @@ footer i {
 
 .form-label {
     display: block;
+    margin-top: 10px;
 }
 
 .form-input-field {
@@ -206,7 +207,7 @@ footer i {
 #form-subscribe-button {
     display: block;
     margin: 20px auto;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: .5rem;
 }
 
@@ -294,6 +295,10 @@ footer i {
 
     .story-text-container {
         width: 60%;
+    }
+
+    .main-nav-link {
+        margin-left: 20px;
     }
 
     #form-container {
