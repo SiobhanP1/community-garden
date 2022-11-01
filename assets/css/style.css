@@ -94,13 +94,17 @@ nav i {
     text-align: center;
 }
 
-#main-heading {
+#main-heading-container {
     background-color: rgba(92, 214, 92, .5);
-    width: 60%;
+    width: 80%;
     display: inline-block;
-    margin: 70px auto;
+    margin: 100px auto;
     height: 300px;
     padding: 30px;
+}
+
+#home-main-heading {
+    font-size: 1.9rem;
 }
 
 /* home page about sections */
@@ -157,6 +161,10 @@ footer i {
 
 #article-image-two {
     margin-bottom: 50px;
+}
+
+#story-main-heading {
+    font-size: 2rem;
 }
 
 .padding-top {
@@ -246,6 +254,10 @@ footer i {
         padding-right: 20px;
     }
 
+    #home-main-heading {
+        font-size: 2.5rem;
+    }
+
     .text-container {
         width: 70%;
     }
@@ -257,9 +269,17 @@ footer i {
     #form-container {
         width: 70%;
     }
+
+    #main-heading-container {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:769px) {
+
+    #home-main-heading {
+        font-size: 3rem;
+    }
 
     .social-media-link {
         margin-left: 100px;
@@ -276,6 +296,10 @@ footer i {
 
     #form-container {
         width: 50%;
+    }
+
+    #main-heading-container {
+        width: 60%;
     }
 }
 
