@@ -37,7 +37,7 @@ h2 {
 
 .contact-us {
     background-color: #ff9933;
-    padding: 0 7px;
+    padding: 0 .5rem;
     border-radius: 5px;
 }
 
@@ -191,6 +191,13 @@ footer i {
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
+}
+
+#form-subscribe-button {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    padding: .5rem;
 }
 
 #map-container {

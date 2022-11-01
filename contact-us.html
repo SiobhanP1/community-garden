@@ -15,7 +15,7 @@
 <body>
     <nav id="nav-bar">
         <p id="home-icon">
-            <a href="index.html"><i class="fa-solid fa-carrot"></i></a>
+            <a href="index.html" aria-label="Open home page"><i class="fa-solid fa-carrot"></i></a>
         </p>
         <ul>
             <li class="main-nav-link contact-us">
@@ -37,7 +37,7 @@
             <h2>Subcribe</h2>
             <p>Subscribe to hear the latest news and events.</p>
         </div>
-        <form id="form-container">
+        <form id="form-container" method="post">
             <label for="first-name" class="form-label">First name:</label>
             <input type="text" id="first-name" name="first-name" class="form-input-field"
                 placeholder="Enter your first name here." required>
@@ -47,6 +47,7 @@
             <label for="email" class="form-label">Email address:</label>
             <input type="email" id="email" name="email" class="form-input-field"
                 placeholder="Enter your email address here." required>
+            <input type="submit" value="Subscribe" id="form-subscribe-button" class="contact-us white-text">
         </form>
     </section>
     <section id="visit-section">
