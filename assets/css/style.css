@@ -53,6 +53,7 @@ h2 {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 #home-icon {
@@ -130,8 +131,13 @@ nav i {
     margin-bottom: 50px;
 }
 
+.about-text-container ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .about-text-container li {
-    list-style-type: none;
+    margin-bottom: 15px;
 }
 
 /* Footer */
@@ -332,6 +338,12 @@ footer i {
     #main-heading-container {
         width: 60%;
     }
+
+    .about-text-container ul {
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (min-width: 1025px) {
