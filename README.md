@@ -40,14 +40,13 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 ## Wireframes
 
 ### Page 1 of 3: The Home Page 
-![The upper half of the home page.](assets/images/homepage_wireframe%201%20screenshot.png) ![The lower half of the home page.](assets/images/homepage_wireframe%202%20screenshot.png)
+![The home page.](assets/images/home-page.png) 
 ### Page 2 of 3: Our Story
-![Our Story on page 2.](assets/images/page2_wireframe%20screenshot.png) 
+![Our Story on page 2.](assets/images/page2-new-our-story.png) 
 ### Page 3 of 3: Contact Us
-![Contact Us on page 3.](assets/images/page3_wireframe%20screenshot.png)
-### Confirmation page after user hits 'Subscribe'
-### Page 1 and 3 on a smaller mobile phone screen 
-![The home page and contact us page on a small phone screen.](assets/images/mobile%20screen_wireframe%20screenshot.png)
+![Contact Us on page 3.](assets/images/page3-contact-us.png)
+### Pages 1 and 3 on a smaller mobile phone screen 
+![The home page and Contact Us pages on a small phone screen.](assets/images/mobile-view-homepg-contact.png)
 
 ## Technology
 ## Testing
