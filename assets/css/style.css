@@ -126,6 +126,10 @@ nav i {
     margin: 0 auto;
 }
 
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
 .about-text-container li {
     list-style-type: none;
 }
@@ -169,10 +173,6 @@ footer i {
 
 .padding-top {
     padding-top: 30px;
-}
-
-#story-image-two {
-    margin-bottom: 50px;
 }
 
 #story-main-heading {
