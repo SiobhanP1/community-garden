@@ -1,5 +1,7 @@
 # Community Garden
+
 ## Purpose
+
 The purpose of the Community Garden website is to:
 * develop user interest in the community garden
 * encourage users to visit the community garden
@@ -18,13 +20,47 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 
 ## Features
 
-* A navigation bar located in the header of each page and containing links to each page. 
-* A footer containing links to social media pages at the bottom of each page. 
-* An interactive map showing the location of the community garden. 
-* A form containing first name, last name and email input fields for users to subscribe to a weekly news email.
-* An article sharing the story and reason (the 'why') for the community garden with both text and photos.
-* A 'What we do' section on the home page sharing the main activities.
-* A 'Who we are' section on the home page allowing users to 'meet' the people running the community garden.  
+### Navigation Bar
+
+A navigation bar located in the header of each page and containing links to each page. 
+
+![Navigation bar](assets/images/nav-bar.png)
+
+### Footer Containing Links to Social Media 
+
+A footer containing links to social media pages at the bottom of each page. 
+
+![Footer containing social media links](assets/images/social-media-links.png)
+
+### Google Map Showing Location
+
+An interactive map showing the location of the community garden. 
+
+![Interactive Google map showing location](assets/images/iframe-map.png)
+
+### Subscribe Form 
+
+A form containing first name, last name and email input fields for users to subscribe to a weekly news email.
+
+![Subscribe form](assets/images/subscribe-form.png)
+
+### Article Sharing Background and 'Why'
+
+An article sharing the story and reason (the 'why') for the community garden with both text and photos.
+
+![Our Story article](assets/images/our-story-article.png)
+
+### 'What We Do' Section on Home Page
+
+A 'What we do' section on the home page sharing the main activities.
+
+![What We Do section on home page](assets/images/what-we-do.png)
+
+### 'Who We Are' Section on Home Page
+
+A 'Who we are' section on the home page allowing users to 'meet' the people running the community garden.  
+
+![Who We Are section on home page](assets/images/who-we-are.png)
 
 ## Future Features
 
@@ -33,23 +69,38 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 
 ## Typography and Color Schemes 
 
+### Typography
+
 * Montserrat is used for headings and Merriweather for body text. 
-* Green is the base color and used for both headings (on white background) and as the background color in the navigation and footer sections. 
-* Blue is also used in places, and light orange is the accent color used for call-to-action buttons. 
+
+### Color Scheme
+
+* Green is used as the base color and background color for the navigation and footer sections, and appears in all of the images. Green was chosen due to its association with nature and gardens, fitting the theme of the website. 
+* Orange is used as an accent color and for call-to-action buttons as it provides a strong contrast with green.
+* All background and foreground color combinations on the website meet WCAG AA color contrast requirements. Color contrast was checked using [Web AIM](https://webaim.org/resources/contrastchecker/).
 
 ## Wireframes
 
 ### Page 1 of 3: The Home Page 
+
 ![The home page.](assets/images/home-page.png) 
+
 ### Page 2 of 3: Our Story
+
 ![Our Story on page 2.](assets/images/page2-new-our-story.png) 
+
 ### Page 3 of 3: Contact Us
+
 ![Contact Us on page 3.](assets/images/page3-contact-us.png)
+
 ### Pages 1 and 3 on a smaller mobile phone screen 
+
 ![The home page and Contact Us pages on a small phone screen.](assets/images/mobile-view-homepg-contact.png)
 
 ## Technology
+
 ## Testing
+
 1. Code Validation
 
 <p>
@@ -63,7 +114,10 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 2. Test Cases (user story with screenshots)
 3. Fixed Bugs
 4. Supported Screens and Browsers
+
 ## Deployment
+
 1. Via Gitpod
 2. Via Github Pages
+
 ## Credits
