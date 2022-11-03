@@ -10,7 +10,7 @@
 body {
     font-family: Merriweather, sans-serif;
     font-weight: 400;
-    color: #616161;
+    color: #555555;
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -36,7 +36,7 @@ h2 {
 }
 
 .contact-us-button {
-    background-color: #ff9933;
+    background-color: #cc4b00;
     padding: 0 .5rem;
     border-radius: 5px;
 }
@@ -49,7 +49,7 @@ h2 {
     padding-left: 10px;
     padding-right: 5px;
     height: 50px;
-    background-color: #7EE244;
+    background-color: #abf60e;
     position: fixed;
     top: 0;
     width: 100%;
@@ -87,8 +87,8 @@ nav i {
 #hero-image-container {
     clear: both;
     height: 500px;
-    background-image: url("/assets/images/tomatoes.jpg");
     background-color: #5cd65c;
+    background-image: url("/assets/images/tomatoes.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,7 +96,7 @@ nav i {
 }
 
 #main-heading-container {
-    background-color: rgba(92, 214, 92, .5);
+    background-color: rgba(21, 123, 10, .6);
     width: 80%;
     display: inline-block;
     margin: 100px auto;
@@ -144,7 +144,7 @@ nav i {
 
 footer {
     height: 50px;
-    background-color: #7EE244;
+    background-color: #abf60e;
     bottom: 0;
     right: 0;
 }
@@ -248,6 +248,7 @@ footer i {
 /* media queries */
 
 @media screen and (min-width: 330px) {
+
     .main-nav-link {
         margin-left: 12px;
     }
