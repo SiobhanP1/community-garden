@@ -116,15 +116,19 @@ nav i {
 /* home page about sections */
 
 .about-text-container {
-    width: 80%;
-    margin: 30px auto 0;
+    width: 75%;
+    margin: 30px auto 20px;
     text-align: center;
-    padding: 15px;
 }
 
 .about-image-container {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
 }
 
 .margin-bottom {
@@ -168,13 +172,18 @@ footer i {
 /* our story article */
 
 .story-image-container {
-    width: 60%;
+    width: 75%;
     margin: 15px auto;
 }
 
 .story-text-container {
     width: 75%;
     margin: 30px auto 20px;
+}
+
+.story-image {
+    width: 100%; 
+    height: auto;
 }
 
 .padding-top {
@@ -296,7 +305,15 @@ footer i {
         width: 70%;
     }
 
+    .about-image-container {
+        width: 70%;
+    }
+
     .story-text-container {
+        width: 70%;
+    }
+
+    .story-image-container {
         width: 70%;
     }
 
@@ -324,7 +341,15 @@ footer i {
         width: 60%;
     }
 
+    .about-image-container {
+        width: 60%;
+    }
+
     .story-text-container {
+        width: 60%;
+    }
+
+    .story-image-container {
         width: 60%;
     }
 

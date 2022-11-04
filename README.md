@@ -122,3 +122,10 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 2. Via Github Pages
 
 ## Credits
+
+### Images
+
+[Boy watering](https://unsplash.com/photos/ffJ8Qa0VQU0) came from [Unsplash](http://www.unsplash.com). 
+The home page background image of [tomatoes](https://unsplash.com/photos/4LiUI-Y2mI8) came from [Unsplash](http://www.unsplash.com). 
+[Woman gardening](https://www.pexels.com/ko-kr/photo/7658811/) came from [Pexels](http://www.pexels.com).
+[Man and woman gardening](https://www.pexels.com/ko-kr/photo/7658795/) came from [Pexels](http://www.pexels.com).
