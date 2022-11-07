@@ -25,8 +25,6 @@ h2 {
     text-align: center;
 }
 
-/* nav bar at top of page */
-
 .main-nav-link {
     display: inline;
     list-style-type: none;
@@ -45,7 +43,7 @@ h2 {
     color: white;
 }
 
-#nav-bar {
+.nav-bar {
     padding-left: 10px;
     padding-right: 5px;
     height: 50px;
@@ -56,7 +54,7 @@ h2 {
     z-index: 10;
 }
 
-#home-icon {
+.home-icon {
     display: inline;
     float: left;
     margin-top: 10px;
@@ -84,7 +82,7 @@ nav i {
     margin-top: 50px;
 }
 
-#hero-image-container {
+.hero-image-container {
     clear: both;
     height: 500px;
     background-color: #5cd65c;
@@ -95,7 +93,7 @@ nav i {
     text-align: center;
 }
 
-#main-heading-container {
+.main-heading-container {
     background-color: #157b0a99;
     width: 80%;
     display: inline-block;
@@ -104,11 +102,11 @@ nav i {
     padding: 30px;
 }
 
-#home-main-heading {
+.home-main-heading {
     font-size: 2rem;
 }
 
-#home-tagline {
+.home-tagline {
     font-size: 1.2rem;
     padding-top: 10px;
 }
@@ -190,7 +188,7 @@ footer i {
     padding-top: 30px;
 }
 
-#story-main-heading {
+.story-main-heading {
     font-size: 2rem;
 }
 
@@ -207,27 +205,27 @@ footer i {
     max-width: 250px;
 }
 
-#contact-main-heading {
+.contact-main-heading {
     margin-top: 20px;
 }
 
-#form-container {
+.form-container {
     width: 90%;
     margin: 0 auto; 
 }
 
-#subscribe-container {
+.subscribe-container {
     width: 70%;
     margin: 0 auto;
 }
 
-#subscribe-text {
+.subscribe-text {
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
 }
 
-#form-subscribe-button {
+.form-subscribe-button {
     display: block;
     margin: 20px auto;
     font-size: 1.2rem;
@@ -236,21 +234,21 @@ footer i {
 
 /* Visit us section on Contact page */
 
-#map-container {
+.map-container {
     margin: 0 auto;
     width: 80%;
 }
 
-#visit-us-text {
+.visit-us-text {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-#visit-section {
+.visit-section {
     margin-bottom: 20px;
 }
 
-#visit-us-text p {
+.visit-us-text p {
     text-align: center;
 }
 
@@ -262,7 +260,7 @@ footer i {
         margin-left: 12px;
     }
 
-    #nav-bar {
+    .nav-bar {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -288,16 +286,12 @@ footer i {
         font-size: 1.2rem;
     }
 
-    .contact-us-button {
-        padding: 0 10px;
-    }
-
-    #nav-bar {
+    .nav-bar {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #home-main-heading {
+    .home-main-heading {
         font-size: 2.5rem;
     }
 
@@ -317,18 +311,18 @@ footer i {
         width: 70%;
     }
 
-    #form-container {
+    .form-container {
         width: 70%;
     }
 
-    #main-heading-container {
+    .main-heading-container {
         width: 70%;
     }
 }
 
 @media screen and (min-width:769px) {
 
-    #home-main-heading {
+    .home-main-heading {
         font-size: 3rem;
     }
 
@@ -357,11 +351,11 @@ footer i {
         margin-left: 20px;
     }
 
-    #form-container {
+    .form-container {
         width: 50%;
     }
 
-    #main-heading-container {
+    .main-heading-container {
         width: 60%;
     }
 
@@ -379,7 +373,7 @@ footer i {
         margin-right: 150px;
     }
 
-    #home-tagline {
+    .home-tagline {
         font-size: 1.5rem;
     }
 }
