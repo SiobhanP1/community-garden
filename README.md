@@ -25,43 +25,43 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 
 The navigation bar contains a link to each page. It is fixed at the top of each page so that it is always visible and easy to find. It allows the user to easily navigate between pages, and uses color to draw the user's attention to the Call to Action ('Contact Us' button).
 
-![Navigation bar](assets/images/nav-bar.png)
+![Navigation bar](docs/nav-bar-wireframe.png)
 
 ### Footer Containing Links to Social Media 
 
 The footer contains links to the social media accounts connected to the website (Facebook, Instagram, Youtube). A title appears ('Follow us on Facebook') when the user's mouse hovers over one of the icons, encouraging the user to click. These links make it easy for the user to connect with and follow the Community Garden's social media accounts.  
 
-![Footer containing social media links](assets/images/social-media-links.png)
+![Footer containing social media links](docs/footer-wireframe.png)
 
 ### Google Map Showing Location
 
 The iframe map shows the location of the garden on Google. The user can interact with the map-zoom in, zoom out, find their current location-in order to make it easy to locate and visit the garden. 
 
-![Interactive Google map showing location](assets/images/iframe-map.png)
+![Interactive Google map showing location](docs/iframe-map-wireframe.png)
 
 ### Subscribe Form 
 
 The subscribe form contains first name, last name and email input fields. Users can input this information if they want to receive news updates and information about events by email. The garden can share good information with users, keep in touch with users and publicise events.  
 
-![Subscribe form](assets/images/subscribe-form.png)
+![Subscribe form](docs/subscribe-wireframe.png)
 
 ### Article Sharing Background and 'Why'
 
 The 'Our Story' article shares the story behind the garden, why it was started and how it has grown over time. It includes both text and photos. It allows users to read and decide whether the values of the garden align with their own and whether they would like to become part of the garden community.
 
-![Our Story article](assets/images/our-story-article.png)
+![Our Story article](docs/our-story-wireframe.png)
 
 ### 'What We Do' Section on Home Page
 
 The 'What we do' section shares the main activities of the garden. The user can discover whether the garden will likely host activities that interest them, that they would like to participate in, or that they would like to find out more about.
 
-![What We Do section on home page](assets/images/what-we-do.png)
+![What We Do section on home page](docs/what-we-do-wireframe.png)
 
 ### 'Who We Are' Section on Home Page
 
 The 'Who We Are' section introduces the people behind the garden. It allows the users to 'meet' them. 
 
-![Who We Are section on home page](assets/images/who-we-are.png)
+![Who We Are section on home page](docs/who-we-are-wireframe.png)
 
 ## Future Features
 
@@ -84,19 +84,23 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ### Page 1 of 3: The Home Page 
 
-![The home page.](assets/images/home-page.png) 
+![The home page.](docs/home-page.png) 
 
 ### Page 2 of 3: Our Story
 
-![Our Story on page 2.](assets/images/page2-new-our-story.png) 
+![Our Story on page 2.](docs/page2-new-our-story.png) 
 
 ### Page 3 of 3: Contact Us
 
-![Contact Us on page 3.](assets/images/page3-contact-us.png)
+![Contact Us on page 3.](docs/page3-contact-us.png)
+
+### Subscribe Confirmation Page
+
+![Subscribe confirmation page.](docs/confirmation-page.png)
 
 ### Pages 1 and 3 on a smaller mobile phone screen 
 
-![The home page and Contact Us pages on a small phone screen.](assets/images/mobile-view-homepg-contact.png)
+![The home page and Contact Us pages on a small phone screen.](docs/mobile-view-homepg-contact.png)
 
 ## Technology
 
