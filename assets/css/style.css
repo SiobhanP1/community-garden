@@ -235,6 +235,13 @@ footer i {
     padding: .5rem;
 }
 
+/* Confirmation page */
+
+.confirm-container {
+    margin: 80px auto 10px;
+    width: 70%;
+}
+
 /* visit us section on contact page */
 
 .visit-section {
@@ -362,6 +369,10 @@ footer i {
 
     .form-container {
         width: 50%;
+    }
+
+    .confirm-container {
+        width: 60%;
     }
 
     .main-nav-link {
