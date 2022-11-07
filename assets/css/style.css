@@ -30,7 +30,7 @@ h2 {
     list-style-type: none;
     float: right;
     line-height: 50px;
-    margin-left: 8px;
+    margin-left: .5rem;
 }
 
 .contact-us-button {
@@ -44,8 +44,8 @@ h2 {
 }
 
 .nav-bar {
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: .6rem;
+    padding-right: .3rem;
     height: 50px;
     background-color: #abf60e;
     position: fixed;
@@ -99,7 +99,7 @@ nav i {
     display: inline-block;
     margin: 100px auto;
     height: 300px;
-    padding: 30px;
+    padding: 1.3rem;
 }
 
 .home-main-heading {
@@ -108,7 +108,7 @@ nav i {
 
 .home-tagline {
     font-size: 1.2rem;
-    padding-top: 10px;
+    padding-top: .8rem;
 }
 
 /* home page about sections */
@@ -257,12 +257,16 @@ footer i {
 @media screen and (min-width: 330px) {
 
     .main-nav-link {
-        margin-left: 12px;
+        margin-left: .6rem;
     }
 
     .nav-bar {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: .8rem;
+        padding-right: .6rem;
+    }
+
+    .home-main-heading {
+        font-size: 2.2rem;
     }
 
     .social-media-link {
@@ -279,7 +283,7 @@ footer i {
     }
 
     .main-nav-link {
-        margin-left: 15px;
+        margin-left: .8rem;
     }
 
     nav ul a {
@@ -287,8 +291,8 @@ footer i {
     }
 
     .nav-bar {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 1.2rem;
+        padding-right: 1rem;
     }
 
     .home-main-heading {
@@ -317,6 +321,7 @@ footer i {
 
     .main-heading-container {
         width: 70%;
+        padding: 1.7rem;
     }
 }
 
@@ -348,7 +353,7 @@ footer i {
     }
 
     .main-nav-link {
-        margin-left: 20px;
+        margin-left: 1rem;
     }
 
     .form-container {
