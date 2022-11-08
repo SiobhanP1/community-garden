@@ -13,11 +13,11 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 
 ## User Stories 
 
-* As a first-time visitor to this site, I want to know what makes this community garden special so I can decide if it is worth visiting or finding out more. I want to know why they do what they do, what their goals are and who is running the garden.
-* As a first-time visitor to this site, I need to know what kind of activities take place there so that I can discover whether the garden hosts activities that I might like to participate in.
-* As a person who wants to visit the garden, I need to know the location so that I can go there.
-* As an interested visitor to this site, I need to find news about events so that I can decide whether to participate. 
-* As an interested and busy visitor to this site, I need to be able to receive news about events so that I don't miss out.
+* As a visiting user of this site, I want to know what makes this community garden special so I can decide whether it is worth visiting.
+* As a visiting user of this site, I need to know what kind of activities take place at the garden and who they are for so that I can decide whether to participate.
+* As a visiting user of this site, I need to know the location of the garden so that I can go there.
+* As a visiting user of this site, I need to find news about events so that I can participate. 
+* As a visiting user of this site, I need to know how to receive news about events so that I don't miss out.
 
 ## Features
 
@@ -104,9 +104,19 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ## Technology
 
+* HTML was used to structure the pages and add features.
+* CSS was used to style the pages.
+* Github was used to store and to share the repository.
+* Gitpod was used to edit.
+* Balsamiq was used to create wireframes during the planning phase.
+* Chrome DevTools was used to check responsiveness and for debugging.
+
 ## Testing
 
 1. Code Validation
+
+* The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
+* The CSS code was validated using the [W3C CSS Validation Service](https://validator.w3.org/).
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -117,7 +127,13 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 </p>
 
 2. Test Cases (user story with screenshots)
+
 3. Fixed Bugs
+
+* The list items in the What We Do section appeared on top of the fixed navigation bar when they reached the top of the page instead of disappearing under it. This was fixed by adding a z-index style declaration (with high positive value) to the CSS code applied to the navigation bar.
+
+* A white space appeared under the footer bar on the Contact and Confirmation pages when viewed at 50% in Chrome DevTools. This was fixed by increasing the size of the iframe map so that it occupied more vertical space. 
+
 4. Supported Screens and Browsers
 
 ## Deployment
@@ -133,3 +149,4 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 The home page background image of [tomatoes](https://unsplash.com/photos/4LiUI-Y2mI8) came from [Unsplash](http://www.unsplash.com). 
 [Woman gardening](https://www.pexels.com/ko-kr/photo/7658811/) came from [Pexels](http://www.pexels.com).
 [Man and woman gardening](https://www.pexels.com/ko-kr/photo/7658795/) came from [Pexels](http://www.pexels.com).
+

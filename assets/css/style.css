@@ -235,18 +235,6 @@ footer i {
     padding: .5rem;
 }
 
-/* confirmation page */
-
-.confirm-container {
-    margin: 90px auto 20px;
-    width: 70%;
-}
-
-.confirm-container p {
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
 /* visit us section on contact page */
 
 .visit-section {
@@ -263,8 +251,33 @@ footer i {
     margin-bottom: 20px;
 }
 
+.map-container iframe {
+    width: 100%;
+    height: 600px;
+}
+
 .visit-us-text p {
     text-align: center;
+}
+
+/* confirmation page */
+
+.confirm-container {
+    margin: 100px auto 30px;
+    width: 70%;
+}
+
+.confirm-text {
+    text-align: center;
+}
+
+.confirm-text h1 {
+    font-size: 1.8rem;
+}
+
+.confirm-container p {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 /* media query for small to large mobile phone screens */
@@ -333,6 +346,10 @@ footer i {
 
     .main-nav-link {
         margin-left: .8rem;
+    }
+
+    .confirm-text h1 {
+        font-size: 2rem;
     }
 
     nav ul a {
