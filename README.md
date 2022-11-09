@@ -105,9 +105,9 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 ## Technology
 
 * HTML was used to structure the pages and add features.
-* CSS was used to style the pages.
+* CSS was used to style the pages and features.
 * Github was used to store and to share the repository.
-* Gitpod was used to edit.
+* Gitpod was used to edit the code.
 * Balsamiq was used to create wireframes during the planning phase.
 * Chrome DevTools was used to check responsiveness and for debugging.
 
@@ -128,6 +128,8 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 2. Test Cases (user story with screenshots)
 
+
+
 3. Fixed Bugs
 
 * The list items in the What We Do section appeared on top of the fixed navigation bar when they reached the top of the page instead of disappearing under it. This was fixed by adding a z-index style declaration (with high positive value) to the CSS code applied to the navigation bar.
@@ -138,8 +140,29 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ## Deployment
 
-1. Via Gitpod
-2. Via Github Pages
+### Via Gitpod
+
+To open up the site in Gitpod, follow the following steps:
+1. Go to http://github.com.
+2. Open up the 'SiobhanP1/community-garden' repository.
+3. Click 'Gitpod' to open up a workspace in Gitpod.
+4. Enter the command `python3 -m http.server` in the terminal.
+5. A small box will appear. 
+6. Click 'Open in browser' to open the site in a new tab. 
+
+### Via Github Pages
+
+The site was deployed to Github Pages by following the steps below.
+
+1. Open up the 'SiobhanP1/community-garden' repository in Github.
+2. Click 'Settings'.
+3. Click 'Pages' (located in the sidebar under Code and Automation).
+4. Select 'Deploy from Branch' from the Source drop-down menu.
+5. Select 'Main' from the Branch drop-down menu.
+6. Click 'Save'.
+7. Wait a minute then refresh the page to see the site link.
+
+The live link is https://siobhanp1.github.io/community-garden/.
 
 ## Credits
 
