@@ -113,7 +113,7 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ## Testing
 
-1. Code Validation
+### Code Validation
 
 * The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No errors were found.
 * The CSS code was validated using the [W3C CSS Validation Service](https://validator.w3.org/). No errors were found.
@@ -126,17 +126,46 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
     </a>
 </p>
 
-2. Test Cases (user story with screenshots)
+### Test Cases (user story with screenshots)
 
+The Home Page
+1. The user opens the home page. They see the hero image and main heading. 
+2. The user notices that there is more text below the hero image. They scroll down.
+3. The user reads the What We Do section. They notice that there is an image below and scroll down.
+4. The user reads the Who We Are section. They notice that there are social media icons in the footer.
+5. The user hovers the mouse over the Facebook icon. A 'Visit our Facebook page' message appears.
+6. The user clicks on the icon and is directed to the Facebook page.
 
+Our Story
+1. The user notices 'Our Story' in the navigation bar.
+2. The user clicks on 'Our Story' and is directed to the Our Story page.
+3. They read the heading and opening text and notice that there is an image below. They scroll down.
+4. They look at the image and notice that there is more text below. They scroll down.
+5. They read the text and notice that there is another image below. They scroll down.
+6. They look at the image.
 
-3. Fixed Bugs
+Contact Us -> Subscribe
+1. The user opens the home page and notices the Contact Us button in the navigation bar.
+2. The user clicks on the Contact Us button. They are directed to the Contact page.
+2. The user notices the subscribe form.
+3. The user enters their first name and clicks subscribe. A message pops up asking them to enter their last name.
+4. The user enters their last name and clicks subscribe. A message pops up asking them to enter their email address.
+5. The user enters their email address and clicks subscribe. They are directed to the Confirmation page.
+
+![Hero image on home page](docs/new-home-pg.png) 
+![Subscribe form on Contact page](docs/new-contact-pg.png)
+![Enter first name in Subscribe form](docs/new-contact-pg-1.png) 
+![Enter last name in Subscribe form](docs/new-contact-pg-2.png)
+![Enter email address in Subscribe form](docs/new-contact-pg-3.png) 
+![Confirmation page](docs/new-confirm-pg.png)
+
+### Fixed Bugs
 
 * The list items in the What We Do section appeared on top of the fixed navigation bar when they reached the top of the page instead of disappearing under it. This was fixed by adding a z-index style declaration (with high positive value) to the CSS code applied to the navigation bar.
 
 * A white space appeared under the footer bar on the Contact and Confirmation pages when viewed at 50% in Chrome DevTools. This was fixed by increasing the size of the iframe map so that it occupied more vertical space. 
 
-4. Supported Screens and Browsers
+### Supported Screens and Browsers
 
 ## Deployment
 
@@ -146,7 +175,7 @@ To open up the site in Gitpod, follow the following steps:
 1. Go to http://github.com.
 2. Open up the 'SiobhanP1/community-garden' repository.
 3. Click 'Gitpod' to open up a workspace in Gitpod.
-4. Enter the command `python3 -m http.server` in the terminal.
+4. Enter the command `python3 -m http.server` in the terminal to open a port.
 5. A small box will appear. 
 6. Click 'Open in browser' to open the site in a new tab. 
 
