@@ -115,8 +115,8 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 1. Code Validation
 
-* The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
-* The CSS code was validated using the [W3C CSS Validation Service](https://validator.w3.org/).
+* The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No errors were found.
+* The CSS code was validated using the [W3C CSS Validation Service](https://validator.w3.org/). No errors were found.
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
