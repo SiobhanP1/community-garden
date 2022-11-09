@@ -126,9 +126,10 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
     </a>
 </p>
 
-### Test Cases (user story with screenshots)
+### Test Cases 
 
-The Home Page
+#### The Home Page
+
 1. The user opens the home page. They see the hero image and main heading. 
 2. The user notices that there is more text below the hero image. They scroll down.
 3. The user reads the What We Do section. They notice that there is an image below and scroll down.
@@ -136,15 +137,25 @@ The Home Page
 5. The user hovers the mouse over the Facebook icon. A 'Visit our Facebook page' message appears.
 6. The user clicks on the icon and is directed to the Facebook page.
 
-Our Story
+![Hero image on Home page](docs/homepg1.png)
+![What We Do section](docs/home-pg-2.png)
+![Who We Are section](docs/home-pg-3.png)
+
+#### Our Story
+
 1. The user notices 'Our Story' in the navigation bar.
 2. The user clicks on 'Our Story' and is directed to the Our Story page.
 3. They read the heading and opening text and notice that there is an image below. They scroll down.
 4. They look at the image and notice that there is more text below. They scroll down.
 5. They read the text and notice that there is another image below. They scroll down.
-6. They look at the image.
+6. They notice the social media icons at the bottom of the page.
 
-Contact Us -> Subscribe
+![Our Story page heading](docs/story-pg-1.png)
+![Our Story article part 1](docs/story-pg-2.png)
+![Our Story article part 2](docs/story-pg-3.png)
+
+#### Contact Us
+
 1. The user opens the home page and notices the Contact Us button in the navigation bar.
 2. The user clicks on the Contact Us button. They are directed to the Contact page.
 2. The user notices the subscribe form.
@@ -154,8 +165,6 @@ Contact Us -> Subscribe
 
 ![Hero image on home page](docs/new-home-pg.png) 
 ![Subscribe form on Contact page](docs/new-contact-pg.png)
-![Enter first name in Subscribe form](docs/new-contact-pg-1.png) 
-![Enter last name in Subscribe form](docs/new-contact-pg-2.png)
 ![Enter email address in Subscribe form](docs/new-contact-pg-3.png) 
 ![Confirmation page](docs/new-confirm-pg.png)
 
