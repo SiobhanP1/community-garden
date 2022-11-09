@@ -176,11 +176,15 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ### Supported Screens and Browsers
 
+* The website was tested for screen widths from 320px (smallest expected mobile phone width) up to 1200px (large laptops or TVs).
+* It was tested for different size devices using the simulator in Chrome DevTools. It has not been tested on other browsers. 
+
 ## Deployment
 
 ### Via Gitpod
 
 To open up the site in Gitpod, follow the following steps:
+
 1. Go to http://github.com.
 2. Open up the 'SiobhanP1/community-garden' repository.
 3. Click 'Gitpod' to open up a workspace in Gitpod.
@@ -206,8 +210,11 @@ The live link is https://siobhanp1.github.io/community-garden/.
 
 ### Images
 
-[Boy watering](https://unsplash.com/photos/ffJ8Qa0VQU0) came from [Unsplash](http://www.unsplash.com). 
-The home page background image of [tomatoes](https://unsplash.com/photos/4LiUI-Y2mI8) came from [Unsplash](http://www.unsplash.com). 
-[Woman gardening](https://www.pexels.com/ko-kr/photo/7658811/) came from [Pexels](http://www.pexels.com).
-[Man and woman gardening](https://www.pexels.com/ko-kr/photo/7658795/) came from [Pexels](http://www.pexels.com).
+* The hero image of [tomatoes](https://unsplash.com/photos/4LiUI-Y2mI8) on the home page was taken from [Unsplash](http://www.unsplash.com). 
+* The image of the [man and woman gardening](https://www.pexels.com/ko-kr/photo/7658795/) on the home page was taken from [Pexels](http://www.pexels.com).
+* The image of the [small boy watering](https://unsplash.com/photos/ffJ8Qa0VQU0) on the Our Story page was taken from [Unsplash](http://www.unsplash.com). 
+* The image of the [woman gardening](https://www.pexels.com/ko-kr/photo/7658811/) on the Our Story page was taken from [Pexels](http://www.pexels.com).
 
+### Code
+
+* Mentor Rohit Chaudhry suggested the use of `<form class="form-container" method="get" action="confirmation.html">` to connect a confirmation page to the subscribe form on the Contact Us page. 
