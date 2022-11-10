@@ -78,13 +78,13 @@ nav i {
     text-decoration: underline;
 }
 
-/* hero image forming background to main heading */
+/* hero image over green as background to box containing main heading */
 
 .hero-image-container {
     clear: both;
     height: 500px;
     background-color: #5cd65c;
-    background-image: url("/assets/images/tomatoes.jpg");
+    background-image: url("../images/tomatoes.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,7 +115,7 @@ nav i {
     padding-top: .8rem;
 }
 
-/* home page about sections */
+/* Who We Are and What We Do sections on home page */
 
 .about-text-container {
     width: 75%;
@@ -235,7 +235,7 @@ footer i {
     padding: .5rem;
 }
 
-/* visit us section on contact page */
+/* visit us section containing map on contact page */
 
 .visit-section {
     margin-bottom: 20px;
@@ -280,7 +280,7 @@ footer i {
     margin-bottom: 15px;
 }
 
-/* media query for small to large mobile phone screens */
+/* media query for small to large mobile phone screens of width 330px to 481px */
 
 @media screen and (min-width: 330px) {
 
@@ -302,7 +302,7 @@ footer i {
     }
 }
 
-/* media query for tablet screens */
+/* media query for tablet screens of width 481px upwards */
 
 @media screen and (min-width: 481px) {
 
@@ -357,7 +357,7 @@ footer i {
     }
 }
 
-/* media query for small to medium laptop screens */
+/* media query for small to medium laptop screens of width 769px to 1025px */
 
 @media screen and (min-width:769px) {
 
@@ -406,7 +406,7 @@ footer i {
     }
 }
 
-/* media query for large laptop and TV screens */
+/* media query for large laptop and TV screens of width 1025px upwards */
 
 @media screen and (min-width: 1025px) {
 
