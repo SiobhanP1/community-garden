@@ -16,8 +16,7 @@ The website is targeted at people who want to learn how to grow fruit and vegeta
 * As a visiting user of this site, I want to know what makes this community garden special so I can decide whether it is worth visiting.
 * As a visiting user of this site, I need to know what kind of activities take place at the garden and who they are for so that I can decide whether to participate.
 * As a visiting user of this site, I need to know the location of the garden so that I can go there.
-* As a visiting user of this site, I need to find news about events so that I can participate. 
-* As a visiting user of this site, I need to know how to receive news about events so that I don't miss out.
+* As a visiting user of this site, I need access to news about events so that I can participate. 
 
 ## Features
 
@@ -150,6 +149,7 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 5. They read the text and notice that there is another image below. They scroll down.
 6. They notice the social media icons at the bottom of the page.
 
+![Hero image on Home page](docs/homepg1.png)
 ![Our Story page heading](docs/story-pg-1.png)
 ![Our Story article part 1](docs/story-pg-2.png)
 ![Our Story article part 2](docs/story-pg-3.png)
@@ -176,8 +176,9 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 ### Supported Screens and Browsers
 
-* The website was tested for screen widths from 320px (smallest expected mobile phone width) up to 1200px (large laptops or TVs).
-* It was tested for different size devices using the simulator in Chrome DevTools. It has not been tested on other browsers. 
+* A mobile-first approach was taken for design. Media queries were used to accommodate screen widths from 320px up to 1200px. 
+* The website was tested on the following devices using the simulator in Chrome DevTools: Google Pixel 5, iPhone 12 Pro, Samsung Galaxy S8, Samsung Galaxy A51, Samsung Galaxy S20 Ultra, iPad, iPad Air.
+* It has not been tested on browsers other than Chrome. 
 
 ## Deployment
 
@@ -217,4 +218,4 @@ The live link is https://siobhanp1.github.io/community-garden/.
 
 ### Code
 
-* Mentor Rohit Chaudhry suggested the use of `<form class="form-container" method="get" action="confirmation.html">` to connect a confirmation page to the subscribe form on the Contact Us page. 
+* Mentor Rohit Sharma suggested the use of `<form class="form-container" method="get" action="confirmation.html">` to connect the confirmation page to the subscribe form on the Contact Us page. 
