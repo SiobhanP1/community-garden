@@ -369,10 +369,6 @@ footer i {
         width: 60%;
     }
 
-    .about-text-container ul {
-        width: 50%;
-    }
-
     .main-heading-container {
         width: 60%;
     }
@@ -397,12 +393,33 @@ footer i {
         width: 60%;
     }
 
+    .visit-section {
+        margin-bottom: 30px;
+    }
+
+    .visit-us-text {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
     .main-nav-link {
         margin-left: 1rem;
     }
 
     .social-media-link {
         margin: 0 4rem;
+    }
+
+    .about-text-container ul {
+        width: 50%;
+    }
+
+    .confirm-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .visit-section h2 {
+        font-size: 2rem;
     }
 }
 
