@@ -129,12 +129,15 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 #### The Home Page
 
-1. The user opens the home page. They see the hero image and main heading. 
-2. The user notices that there is more text below the hero image. They scroll down.
-3. The user reads the What We Do section. They notice that there is an image below and scroll down.
-4. The user reads the Who We Are section. They notice that there are social media icons in the footer.
-5. The user hovers the mouse over the Facebook icon. A 'Visit our Facebook page' message appears.
-6. The user clicks on the icon and is directed to the Facebook page.
+1. Open the home page. The user is shown the hero image and main heading. The user notices that there is more text below the hero image. 
+2. Scroll down. The user is shown the What We Do section.
+3. Read the What We Do section. The user notices that there is an image below. 
+4. Scroll down. The user is shown the What We Do image.
+5. Look at the image. The user notices that there is more text below.
+6. Scroll down. The user is shown the Who We Are section text.
+4. Read the Who We Are section. The user notices that there are social media icons in the footer.
+5. Hover the mouse over the Facebook icon. A 'Visit our Facebook page' message appears.
+6. Click on the Facebook icon. The user is directed to the Facebook page.
 
 ![Hero image on Home page](docs/homepg1.png)
 ![What We Do section](docs/home-pg-2.png)
@@ -142,12 +145,15 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 #### Our Story
 
-1. The user notices 'Our Story' in the navigation bar.
-2. The user clicks on 'Our Story' and is directed to the Our Story page.
-3. They read the heading and opening text and notice that there is an image below. They scroll down.
-4. They look at the image and notice that there is more text below. They scroll down.
-5. They read the text and notice that there is another image below. They scroll down.
-6. They notice the social media icons at the bottom of the page.
+1. Open the home page. The user notices the 'Our Story' button in the navigation bar.
+2. Click on 'Our Story'. The user is directed to the Our Story page.
+3. Read the heading and opening text. The user notices that there is an image below. 
+4. Scroll down. The user is shown an image.
+4. Look at the image. The user notices that there is more text below. 
+5. Scroll down. The user is shown the next part of the article text.
+5. Read the text. The user notices that there is another image below. 
+6. Scroll down. The user is shown the second article image.
+6. Look at the image. The user notices the social media icons at the bottom of the page.
 
 ![Hero image on Home page](docs/homepg1.png)
 ![Our Story page heading](docs/story-pg-1.png)
@@ -156,12 +162,12 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 #### Contact Us
 
-1. The user opens the home page and notices the Contact Us button in the navigation bar.
-2. The user clicks on the Contact Us button. They are directed to the Contact page.
-2. The user notices the subscribe form.
-3. The user enters their first name and clicks subscribe. A message pops up asking them to enter their last name.
-4. The user enters their last name and clicks subscribe. A message pops up asking them to enter their email address.
-5. The user enters their email address and clicks subscribe. They are directed to the Confirmation page.
+1. Open the home page. The user notices the Contact Us button in the navigation bar.
+2. Click on the Contact Us button. The user is directed to the Contact page.
+2. Read the subscribe section heading. The user notices the subscribe form.
+3. Enter your first name and click subscribe. A message appears asking the user to enter their last name.
+4. Enter your last name and click subscribe. A message appears asking the user to enter their email address.
+5. Enter your email address and click subscribe. The user is directed to the Confirmation page.
 
 ![Hero image on home page](docs/new-home-pg.png) 
 ![Subscribe form on Contact page](docs/new-contact-pg.png)
@@ -215,7 +221,3 @@ The live link is https://siobhanp1.github.io/community-garden/.
 * The image of the [man and woman gardening](https://www.pexels.com/ko-kr/photo/7658795/) on the home page was taken from [Pexels](http://www.pexels.com).
 * The image of the [small boy watering](https://unsplash.com/photos/ffJ8Qa0VQU0) on the Our Story page was taken from [Unsplash](http://www.unsplash.com). 
 * The image of the [woman gardening](https://www.pexels.com/ko-kr/photo/7658811/) on the Our Story page was taken from [Pexels](http://www.pexels.com).
-
-### Code
-
-* Mentor Rohit Sharma suggested the use of `<form class="form-container" method="get" action="confirmation.html">` to connect the confirmation page to the subscribe form on the Contact Us page. 
