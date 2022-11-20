@@ -109,6 +109,8 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 * Gitpod was used to edit the code.
 * Balsamiq was used to create wireframes during the planning phase.
 * Chrome DevTools was used to check responsiveness and for debugging.
+* Font Awesome was used to source icons.
+* Google Maps is used to provide an interactive map showing the location of the garden.
 
 ## Testing
 
