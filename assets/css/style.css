@@ -280,6 +280,43 @@ footer i {
     margin-bottom: 15px;
 }
 
+/* media query for very small mobile phone screens of width 279px upwards */
+
+@media screen and (min-width: 279px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .about-text-container {
+        width: 80%;
+    }
+
+    .about-image-container {
+        width: 80%;
+    }
+
+    .story-text-container {
+        width: 80%;
+    }
+
+    .story-image-container {
+        width: 80%;
+    }
+
+    .main-heading-container {
+        padding: 1.3rem .8rem;
+    }
+
+    .confirm-container {
+        width: 80%;
+    }
+}
+
 /* media query for small to large mobile phone screens of width 330px to 481px */
 
 @media screen and (min-width: 330px) {
