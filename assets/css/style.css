@@ -56,7 +56,7 @@ h2 {
     color: white;
 }
 
-.home-icon {
+#home-icon {
     display: inline;
     float: left;
     margin-top: 10px;
@@ -282,7 +282,7 @@ footer i {
 
 /* media query for very small mobile phone screens of width 279px upwards */
 
-@media screen and (min-width: 279px) {
+@media screen and (max-width: 329px) {
 
     body {
         font-size: 1rem;
@@ -311,9 +311,36 @@ footer i {
     .main-heading-container {
         padding: 1.3rem .8rem;
     }
-
+ 
     .confirm-container {
         width: 80%;
+        margin: 65px auto 30px;
+    }
+
+    .nav-bar {
+        height: 40px;
+    }
+
+    .contact-us-button {
+        height: 40px;
+        padding: 0 .2rem;
+    }
+
+    .main-nav-link {
+        line-height: 40px;
+    }
+
+    .nav-bar-margin {
+        margin-top: 40px;
+    }
+
+    #home-icon {
+        margin-top: 7px;
+        font-size: .9rem;
+    }
+
+    .nav-bar ul a {
+        font-size: 1rem;
     }
 }
 
