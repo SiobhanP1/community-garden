@@ -4,7 +4,7 @@
 
 <img src="./docs/iphone-6-7-8.png" alt="Screenshot of home page on iPhone 7" width=100>
 <img src="./docs/ipad-screenshot.png" alt="Screenshot of home page on iPad" width=200>
-<img src="./docs/nest-hub.png" alt="Screenshot of home page on Nest Hub" width=300>
+<img src="./docs/ipad-horiz-screenshot.png" alt="Landscape view of home page on iPad" width=200>
 
 The purpose of the Community Garden website is to:
 * develop user interest in the community garden
@@ -184,12 +184,12 @@ The 'Who We Are' section introduces the people behind the garden. It allows the 
 
 * The list items in the What We Do section appeared on top of the fixed navigation bar when they reached the top of the page instead of disappearing under it. This was fixed by adding a z-index style declaration (with high positive value) to the CSS code applied to the navigation bar.
 
-* A white space appeared under the footer bar on the Contact and Confirmation pages when viewed at 50% in Chrome DevTools. This was fixed by increasing the size of the iframe map so that it occupied more vertical space. 
+* A white space appeared under the footer bar on the Contact and Confirmation pages when viewing the website on the iPad Pro emulator in Chrome DevTools. This was fixed by increasing the size of the iframe map so that it occupied more vertical space. 
 
 ### Supported Screens and Browsers
 
-* A mobile-first approach was taken for design. Media queries were used to accommodate screen widths from 320px up to 1200px. 
-* The website was tested on the following devices using the simulator in Chrome DevTools: Google Pixel 5, iPhone 12 Pro, Samsung Galaxy S8, Samsung Galaxy A51, Samsung Galaxy S20 Ultra, iPad, iPad Air.
+* A mobile-first approach was taken for design. Media queries were used to accommodate screen widths from 280px up to 1200px. 
+* The website was tested on the following devices using the emulator in Chrome DevTools: Google Pixel 5, iPhone 12 Pro, Samsung Galaxy S8, Samsung Galaxy A51, Samsung Galaxy S20 Ultra, iPad, iPad Air, Galaxy Fold, iPad Pro.
 * It has not been tested on browsers other than Chrome. 
 
 ## Deployment
