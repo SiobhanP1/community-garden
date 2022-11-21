@@ -2,6 +2,10 @@
 
 ## Purpose
 
+<img src="./docs/iphone-6-7-8.png" alt="Screenshot of home page on iPhone 7" width=100>
+<img src="./docs/ipad-screenshot.png" alt="Screenshot of home page on iPad" width=200>
+<img src="./docs/nest-hub.png" alt="Screenshot of home page on Nest Hub" width=300>
+
 The purpose of the Community Garden website is to:
 * develop user interest in the community garden
 * encourage users to visit the community garden
