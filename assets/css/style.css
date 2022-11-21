@@ -295,7 +295,7 @@ footer i {
     margin-bottom: 15px;
 }
 
-/* media query for very small mobile phone screens of width 279px upwards */
+/* media query for very small mobile phone screens of width less than 329px such as the Galaxy Fold */
 
 @media screen and (max-width: 329px) {
 
@@ -349,13 +349,13 @@ footer i {
         margin-top: 40px;
     }
 
-    .opening-hours table {
-        width: 95%;
-    }
-
     #home-icon {
         margin-top: 7px;
         font-size: .9rem;
+    }
+
+    .opening-hours table {
+        width: 95%;
     }
 
     .nav-bar ul a {
